@@ -49,8 +49,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppInfo.cs" />
+    <Compile Include="BaseRequest.cs" />
+    <Compile Include="BaseResponse.cs" />
+    <Compile Include="Key_Val.cs" />
+    <Compile Include="Msg.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecommendInfo.cs" />
+    <Compile Include="SendMsg.cs" />
+    <Compile Include="synccheck.cs" />
+    <Compile Include="SyncKey.cs" />
+    <Compile Include="Time.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="webwxgetcontact.cs" />
+    <Compile Include="webwxinit.cs" />
+    <Compile Include="webwxsendmsg.cs" />
     <Compile Include="WechatCredential.cs" />
   </ItemGroup>
   <ItemGroup>
